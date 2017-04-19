@@ -87,14 +87,12 @@ footer a {
     margin: 5% 4% 0 0;
     padding-left: 2%;
     width: 98%;
-    border: 1px solid black;
   }
   .right_column {
     float: none;
     margin: 5% 4% 0 0;
     padding-left: 2%;
     width: 96%;
-    border: 1px solid red;
   }
   .container {
     height: 100%;
