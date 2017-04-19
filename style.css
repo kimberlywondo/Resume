@@ -77,23 +77,24 @@ footer a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 480px)  {
+@media only screen and (max-width: 480px) {
   h1 { font-size: 1.55em; }
   h2 { padding-bottom: 4%; text-align: center; }
   #education, li { text-align: center; }
+  #contact, #skills, #education, #experience { padding-top: 5%;}
   .left_column {
     float: none;
-    margin: 5% 3.84615384615% 0 0;
+    margin: 5% 4% 0 0;
     padding-left: 2%;
-    padding-right: 4%;
     width: 98%;
+    border: 1px solid black;
   }
   .right_column {
     float: none;
-    margin: 5% 3.84615384615% 0 0;
+    margin: 5% 4% 0 0;
     padding-left: 2%;
-    padding-right: 4%;
-    width: 98%;
+    width: 96%;
+    border: 1px solid red;
   }
   .container {
     height: 100%;
