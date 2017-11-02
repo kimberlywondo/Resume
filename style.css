@@ -41,7 +41,7 @@ body {
 h1 { font-size: 2.3em; }
 h2 { 
   font-size: 1.25em; 
-  padding-bottom: 4%; 
+  padding-top: 1%; 
   font-family: 'Oswald', sans-serif;
    }
 h3 { font-size: 1em; }
@@ -84,9 +84,10 @@ footer a {
 
 @media only screen and (max-width: 540px) {
   h1 { font-size: 2em; }
+  footer { margin-top: 30px;}
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 515px) {
   h1 { font-size: 1.55em; }
   h2 { padding-bottom: 4%; text-align: center; }
   #education, li { text-align: center; }
