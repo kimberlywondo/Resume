@@ -8,20 +8,22 @@
 
 html {
   height: 100%;
-  background: #F4F7FF;
+  background #ffffff;
 }
 
 body {
+  background: #fff;
   border: 2px solid black;
   font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   margin: 5%;
 }
 
-
 /*COLUMNS*/
 .container {
   height: 700px;
+  padding: 60px 0 0 0;
+  margin-top: -60px;
 }
 
 .left_column {
@@ -38,22 +40,34 @@ body {
   width: 46%;
 }
 
-h1 { font-size: 2.3em; }
+section h2 {
+  border: 1px solid #cdb8bd;
+  background: #cdb8bd;
+}
+
+h1 span {
+  /* border: 2px solid black; */
+  /* padding: 0px 15px; */
+  /* background: #ffffff; */
+}
+
+h1 { 
+  font-size: 3.3em; 
+  font-weight: normal;
+}
 h2 { 
   font-size: 1.25em; 
-  padding-top: 1%; 
   font-family: 'Oswald', sans-serif;
    }
 h3 { font-size: 1em; }
 h4 { font-size: .875em; }
-h5 { font-size: .75em; color: gray; padding: 1% 0 2% 0; }
+h5 { font-size: .75em; color: #7d7484; padding: 1% 0 2% 0; }
 h6 { font-size: .625em; }
 p  { font-size: .625em; padding-bottom: 3%; }
 li { font-family: 'Raleway', sans-serif; padding-bottom: 2%; }
 ul { list-style: none; }
 
 header {
-  margin: 5% 0 4% 0;
   text-align: center;
   width:100%;
   font-family: 'Oswald', sans-serif;
@@ -64,7 +78,7 @@ section {
 }
 
 #contact_details, #contact_details a {
-  color: gray;
+  color: #7d7484;
 }
 
 footer {
@@ -82,29 +96,37 @@ footer a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 540px) {
-  h1 { font-size: 2em; }
-  footer { margin-top: 30px;}
+@media only screen and (max-width: 760px) {
+  h1 { font-size: 2.7em; }
+  /* footer { margin-top: 30px;} */
 }
 
 @media only screen and (max-width: 515px) {
-  h1 { font-size: 1.55em; }
-  h2 { padding-bottom: 4%; text-align: center; }
+  h1 { font-size: 2em; }
+  h2 { text-align: center; }
   #education, li { text-align: center; }
   #contact, #skills, #education, #experience { padding-top: 5%;}
   .left_column {
     float: none;
-    margin: 5% 4% 0 0;
-    padding-left: 2%;
-    width: 98%;
+    margin: 0;
+    padding-left: 0%;
+    width: 100%;
   }
   .right_column {
     float: none;
-    margin: 5% 4% 0 0;
-    padding-left: 2%;
-    width: 96%;
+    margin: 0;
+    padding-left: 0%;
+    width: 100%;
+  }
+  #experience section {
+    padding: 0% 4%;
   }
   .container {
     height: 100%;
   }
+}
+
+@media only screen and (max-width: 380px) {
+  h1 { font-size: 1.4em; }
+  /* footer { margin-top: 30px;} */
 }
