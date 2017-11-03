@@ -1,8 +1,166 @@
 @import "./components/_colors.scss";
 
-nav {
-    // display: inline; 
-    li {
-        display: inline;
+/*///// GENERAL STYLES //////*/
+* {
+    margin: 0;
+    padding: 0;
+    max-width: 910px;
+    margin: auto; 
+}
+  
+html {
+    height: 100%;
+    background: #FFFFFF;
+    body {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        margin: 5%;
     }
 }
+  
+  
+
+
+/*///// HEADERS /////*/
+h1 { 
+    font-size: 3.3em; 
+    font-weight: normal;
+    /* font-family: 'Raleway', sans-serif; */
+}
+h2 { 
+    font-size: 1.25em; 
+    font-family: 'Oswald', sans-serif;
+}
+h3 { font-size: 1.25em;  }
+h4 { font-size: .875em; }
+h5 { font-size: .75em; color: #7d7484; padding: 1% 0 2% 0; }
+h6 { font-size: .625em; }
+p  { font-size: .625em; padding-bottom: 3%; }
+li { font-size: 1em; padding-bottom: 2%; color: #7d7484; }
+ul { list-style: none; }
+  
+header {
+    text-align: center;
+    width:100%;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px 0px;
+}
+
+nav {
+    width: 100%;
+    text-align: center;
+    ul {
+        display: flex;
+
+        li {
+            // display: inline;
+        }
+    }
+}
+
+h1 span {
+    /* border: 2px solid black; */
+    padding: 0px 15px;
+    background: #ffffff;
+  }
+  h3 span {
+    /* border: 2px solid black; */
+    padding: 0px 15px;
+    background: #ffffff;
+  }
+  
+  
+  
+  /*///// BODY STYLES  /////*/
+  .scroll_snap {
+    height: 100vh;
+  }
+
+.box {
+    display: flex;
+    img {
+        border-radius: 100%;
+    }
+} 
+
+//   section {
+//     margin: 5% 0 5% 0;  
+//   }
+  
+  section h2 {
+    border: 1px solid #cdb8bd;
+    background: #cdb8bd;
+  }
+  
+
+  
+  #contact_details, #contact_details a {
+    color: #7d7484;
+  }
+  
+  li i {
+    padding-right: 10px;
+  }
+  
+  
+  
+  
+  /*///// FOOTER /////*/
+  footer {
+    background: black;
+    border: 1px solid black;
+    color: white;
+    padding: 2% 0 2% 0;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  footer a {
+    color: #F4F7FF;
+    text-decoration: none;
+  }
+  
+  
+  
+  
+  /*///// MEDIA QUERIES /////*/
+  @media only screen and (max-width: 554px) {
+    h1 { font-size: 2.7em; }
+    footer h4 { font-size: .825em; }
+    footer { margin-top: 30px;}
+  }
+  
+  @media only screen and (max-width: 515px) {
+    h1 { font-size: 2.2em; }
+    h2 { text-align: center; }
+    
+    #education, li { text-align: center; }
+    #contact, #skills, #education, #experience { 
+      border: 2px solid #7d7484;
+    }
+    .left_column {
+      float: none;
+      margin: 0;
+      padding-left: 0%;
+      width: 100%;
+    }
+    .right_column {
+      float: none;
+      margin: 0;
+      padding-left: 0%;
+      width: 100%;
+    }
+    #experience section {
+      padding: 0% 4%;
+    }
+    .container {
+      height: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 380px) {
+    h1 { font-size: 1.4em; }
+    /* footer { margin-top: 30px;} */
+  }
+  
