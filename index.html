@@ -7,116 +7,138 @@
   <meta name="HandheldFriendly" content="true">
   <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Oswald|Raleway|Montserrat" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
-  <!-- <script src="/scripts.js"></script> -->
+  <link rel="stylesheet" type="text/css" href="/style/css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="scripts.js"></script>
 </head>
 
 <body>
-  <header>
-    <h1><span>KIMBERLY WONDOLOSKI</span></h1>
-    <h3>WEB DEVELOPER</h3>
-  </header>
+  <div class="scroll_snap" id="home">
+    <header>
+        <h1><span>KIMBERLY WONDOLOSKI</span></h1>
+        <h3><span>WEB DEVELOPER</span></h3>
+      </header>
+    
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
 
- 
+      <div class="box">
+        <img src="/documents/person-placeholder-.jpg">
+      </div>
 
-  <div class="container">
-      <nav></nav>
-    <div class="left_column">
-      <section id="contact">
+      <div class="box">
+          <a href="/documents/KimberlyWondoloski_Resume2017.pdf" download>DOWNLOAD</a>
+      </div>
+
+      <div class="box">
+        <btn><a href="#skills"><i class="fa fa-chevron-circle-down fa-3x" aria-hidden="true"></i></a></btn>
+      </div>
+  </div>
+  
+
+  <div class="scroll_snap">
+      <section id="skills">
+          <h2>SKILLS</h2>
+          <section>
+            <ul>
+              <li>+ HTML5</li>
+              <li>+ CSS3</li>
+              <li>+ JavaScript</li>
+              <li>+ jQuery</li>
+              <li>+ SASS</li>
+              <li>+ Bootstrap</li>
+              <li>+ Wordpress</li>
+              <li>+ Responsive Design</li>
+              <li>+ Git/GitHub</li>
+              </ul>
+          </section>
+        </section>
+  </div>
+
+  <div class="scroll_snap">
+      <section id="education">
+          <h2>EDUCATION</h2>
+          <section>
+            <h4>GEORGIA COLLEGE & STATE UNIVERSITY</h4>
+            <h5><i>Milledgeville, Georgia-B.S., Biology, May 2012</i></h5>
+          </section>
+        </section>
+  </div>
+
+  <div class="scroll_snap">
+      <section id="experience">
+          <h2>EXPERIENCE</h2>
+            <section>
+              <h4>CLASSIC CITY CONSULTING</h4>
+              <h5><i>UI Design / Development, May 2017 - Present</i></h5>
+                <!-- <P></P> -->
+                <p>Collaborate with designers and clients to build customized, responsive, cross-browser compatible user interfaces. </p>
+                <p>Work closely with a team to design and develop responsive UI for a web based NodeJS/Angular 4 application.</p>
+                <p>Design and update new and existing client websites using Wordpress, CSS, and JS.</p>
+            </section>
+  
+            <section>
+              <h4>GENERAL ASSEMBLY</h4>
+              <h5><i>Web Development Student, Oct. 2016 - Feb. 2017</i></h5>
+                <p>Participated in a full-time project based web development program. Built and deployed multiple full stack web apps using several development technologies and best practices.  </p>
+  
+              <h5><i>Projects</i></h5>
+                <article>
+                  <h6>SUMON:</h6>
+                    <p>A simple and visually engaging math game built using HTML, CSS, jQuery, and JavaScript</p>
+                </article>
+  
+                <article>
+                  <h6>MY STORY BOOKS:</h6>
+                    <p>Worked with a team to create a MEAN stack children's story book app with an Angular.js front-end and CSS3 styling</p>
+                </article>
+  
+                <!-- <article>
+                  <h6>MOVIES: RAILS</h6>
+                    <p>Movies collection app built using Ruby on Rails and the OMDB API to search for and save movies</p>
+                </article> -->
+            </section>
+  
+            <section>
+              <h4>BROWN INTEGRATED LOGISTICS</h4>
+              <h5><i>Business Analyst, Sept. 2013 - Sept. 2015</i></h5>
+                <!-- <p>Built custom reports and data management tools using SQL and Excel.</p> -->
+                <p>Automated manual rating system by creating and integrating a custom rating database within our existing TMS.</p>
+                <!-- <p>Worked with various teams to identify opportunities for increased efficiency using custom programs. </p> -->
+                <p>Developed user guides, training materials, and technical documentation.</p>
+                <!-- <p>Worked closely with sales team and customers to design database solutions for tracking and sharing key customer lifecycle metrics.</p> -->
+                <p>Worked with various teams to map user flows and work flows, and to create custom SQL / Excel programs.</p>
+            </section>
+        </section>
+  </div>
+
+<div class="scroll_snap" id="contact">
+    <section>
         <h2>CONTACT</h2>
         <section>
           <ul id="contact_details">
-            <li>Atlanta, GA</li>
-            <li><a href="tel:404-801-7456">404-801-7456</a></li>
-            <li><a href="mailto:kimberly.wondoloski@gmail.com">Email me</a></li>
-            <li><a href="https://github.com/kimberlywondo" target="_blank">Find me on GitHub</a></li>
-            <li><a href="https://www.linkedin.com/in/kimberlywondo/" target="_blank">Connect with me on LinkedIn</a></li>
+            <li><i class="fa fa-map-pin" aria-hidden="true"></i>Atlanta, GA</li>
+            <li><i class="fa fa-phone"></i><a href="tel:404-801-7456">404-801-7456</a></li>
+            <li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:kimberly.wondoloski@gmail.com">Email me</a></li>
+            <li><i class="fa fa-github" aria-hidden="true"></i><a href="https://github.com/kimberlywondo" target="_blank">Find me on GitHub</a></li>
+            <li><i class="fa fa-linkedin" aria-hidden="true"></i><a href="https://www.linkedin.com/in/kimberlywondo/" target="_blank">Connect with me on LinkedIn</a></li>
           </ul>
         </section>
       </section>
-
-      <section id="skills">
-        <h2>SKILLS</h2>
-        <section>
-          <ul>
-            <li>+ HTML5</li>
-            <li>+ CSS3</li>
-            <li>+ JavaScript</li>
-            <li>+ jQuery</li>
-            <li>+ SASS</li>
-            <li>+ Bootstrap</li>
-            <li>+ Wordpress</li>
-            <li>+ Responsive Design</li>
-            <li>+ Git/GitHub</li>
-            </ul>
-        </section>
-      </section>
-
-      <section id="education">
-        <h2>EDUCATION</h2>
-        <section>
-          <h4>GEORGIA COLLEGE & STATE UNIVERSITY</h4>
-          <h5><i>Milledgeville, Georgia-B.S., Biology, May 2012</i></h5>
-        </section>
-      </section>
-    </div>
-
-    <div class="right_column">
-      <section id="experience">
-        <h2>EXPERIENCE</h2>
-          <section>
-            <h4>CLASSIC CITY CONSULTING</h4>
-            <h5><i>UI Design / Development, May 2017 - Present</i></h5>
-              <!-- <P></P> -->
-              <p>Collaborate with designers and clients to build customized, responsive, cross-browser compatible user interfaces. </p>
-              <p>Work closely with a team to design and develop responsive UI for a web based NodeJS/Angular 4 application.</p>
-              <p>Design and update new and existing client websites using Wordpress, CSS, and JS.</p>
-          </section>
-
-          <section>
-            <h4>GENERAL ASSEMBLY</h4>
-            <h5><i>Web Development Student, Oct. 2016 - Feb. 2017</i></h5>
-              <p>Participated in a full-time project based web development program. Built and deployed multiple full stack web apps using several development technologies and best practices.  </p>
-
-            <h5><i>Projects</i></h5>
-              <article>
-                <h6>SUMON:</h6>
-                  <p>A simple and visually engaging math game built using HTML, CSS, jQuery, and JavaScript</p>
-              </article>
-
-              <article>
-                <h6>MY STORY BOOKS:</h6>
-                  <p>Worked with a team to create a MEAN stack children's story book app with an Angular.js front-end and CSS3 styling</p>
-              </article>
-
-              <!-- <article>
-                <h6>MOVIES: RAILS</h6>
-                  <p>Movies collection app built using Ruby on Rails and the OMDB API to search for and save movies</p>
-              </article> -->
-          </section>
-
-          <section>
-            <h4>BROWN INTEGRATED LOGISTICS</h4>
-            <h5><i>Business Analyst, Sept. 2013 - Sept. 2015</i></h5>
-              <!-- <p>Built custom reports and data management tools using SQL and Excel.</p> -->
-              <p>Automated manual rating system by creating and integrating a custom rating database within our existing TMS.</p>
-              <!-- <p>Worked with various teams to identify opportunities for increased efficiency using custom programs. </p> -->
-              <p>Developed user guides, training materials, and technical documentation.</p>
-              <!-- <p>Worked closely with sales team and customers to design database solutions for tracking and sharing key customer lifecycle metrics.</p> -->
-              <p>Worked with various teams to map user flows and work flows, and to create custom SQL / Excel programs.</p>
-          </section>
-      </section>
-    </div>
   </div>
 
   <footer>
     <h4><a href="mailto:kimberly.wondoloski@gmail.com">KIMBERLY.WONDOLOSKI@GMAIL.COM</a></h4>
   </footer>
 
-  <!-- <footer>
-    <a href="/documents/KimberlyWondoloski_Resume2017.pdf" download>DOWNLOAD</a>
-  </footer> -->
   
 </body>
 </html>
