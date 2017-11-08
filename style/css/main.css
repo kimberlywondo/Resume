@@ -2,37 +2,45 @@
 * {
   margin: 0;
   padding: 0;
-  max-width: 910px;
   margin: auto; }
 
 html {
-  height: 100%;
-  background: #FFFFFF; }
+  height: 100%; }
   html body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px; }
+  html #home, html footer {
+    width: 100%;
+    background: linear-gradient(rgba(125, 116, 132, 0.5), rgba(0, 0, 0, 0.5)), url(../../documents/woman-865111_1920.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover; }
+  html #section2 .row {
+    max-width: 910px;
+    margin: auto; }
 
 /*///// HEADERS /////*/
-h1 {
-  font-size: 3.3em;
-  font-weight: normal; }
-  h1 span {
-    padding: 0px 15px;
-    background: #ffffff; }
+header {
+  color: #ffffff; }
+  header h1 {
+    font-size: 4.3em;
+    font-weight: normal; }
+    header h1 span {
+      padding: 0px 15px; }
+  header h3 {
+    font-size: 1.75em; }
+    header h3 span {
+      /* border: 2px solid black; */
+      padding: 0px 15px; }
 
 h2 {
   font-size: 1.25em;
+  font-weight: normal;
   font-family: 'Oswald', sans-serif;
   border: 1px solid #cdb8bd;
   background: #cdb8bd;
   margin: 0 0 20px 0; }
-
-h3 {
-  font-size: 1.25em; }
-  h3 span {
-    /* border: 2px solid black; */
-    padding: 0px 15px;
-    background: #ffffff; }
 
 h4 {
   font-size: .975em; }
@@ -63,13 +71,8 @@ header {
   text-align: center;
   width: 100%;
   font-family: 'Oswald', sans-serif;
-  padding: 10px 0px; }
-
-nav {
-  width: 100%;
-  text-align: center; }
-  nav ul {
-    display: flex; }
+  padding: 40px 0px;
+  height: 65%; }
 
 /*///// BODY STYLES  /////*/
 #home,
@@ -84,52 +87,73 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin: 2px; }
+  margin: 0; }
 
 .left {
   flex: 1;
+  margin: 5px;
   padding: 0 10px; }
 
 .right {
   flex: 1.5;
+  margin: 5px;
   padding: 0 10px; }
 
 .card {
-  margin: 10px;
+  margin: 5px 10px;
   padding: 15px; }
 
-#picture {
-  width: 70%;
-  height: auto; }
+a.btn {
+  -webkit-border-radius: 12;
+  -moz-border-radius: 12;
+  border-radius: 12px;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #ffffff 4px;
+  color: #ffffff;
+  text-decoration: none; }
 
-img {
-  border-radius: 100%;
-  width: 100%;
-  height: auto; }
+a.btn:hover {
+  background: rgba(125, 116, 132, 0.5);
+  color: #ffffff;
+  text-decoration: none; }
+
+a.btn_round {
+  -webkit-border-radius: 100;
+  -moz-border-radius: 12;
+  border-radius: 100px;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  color: #7d7484;
+  color: #ffffff; }
+
+a.btn_round:hover {
+  color: #7d7484;
+  text-decoration: none; }
 
 #contact_details,
 #contact_details a {
   color: #7d7484; }
 
 #experience section {
-  margin-bottom: 35px; }
+  margin-bottom: 3%; }
 
 /*///// FOOTER /////*/
 footer {
-  background: black;
-  border: 1px solid black;
   color: white;
   padding: 2% 0 2% 0;
   text-align: center;
   width: 100%; }
-
-footer a {
-  color: #F4F7FF;
-  text-decoration: none; }
+  footer a {
+    color: #F4F7FF;
+    text-decoration: none; }
+    footer a:hover {
+      color: #cdb8bd; }
 
 @media only screen and (max-width: 670px) {
   h1 {
-    font-size: 2.2em; }
+    font-size: 3.3em; }
 
   h2 {
     text-align: center; }
@@ -141,14 +165,23 @@ footer a {
     height: 100%; }
     #section2 .left {
       text-align: center; } }
-@media only screen and (max-width: 670px) and (orientation: landscape) {
-  #picture {
-    width: 40%; } }
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 505px) {
   h1 {
-    font-size: 1.75em; }
+    font-size: 2.3em; }
 
   h2 {
-    text-align: center; } }
+    text-align: center; }
+
+  h3 {
+    font-size: 1.45em; } }
+@media only screen and (max-width: 370px) {
+  h1 {
+    font-size: 2em; }
+
+  h2 {
+    text-align: center; }
+
+  h3 {
+    font-size: 1.25em; } }
 
 /*# sourceMappingURL=main.css.map */
