@@ -5,7 +5,8 @@
   margin: auto; }
 
 html {
-  height: 100%; }
+  height: 100%;
+  font-size: 2vw; }
   html body {
     font-family: 'Montserrat', sans-serif;
     font-size: 16px; }
@@ -41,7 +42,7 @@ h2 {
   font-family: 'Oswald', sans-serif;
   border: 1px solid #cdb8bd;
   background: #cdb8bd;
-  margin: 0 0 20px 0; }
+  margin: 0 0 10px 0; }
 
 h4 {
   font-size: .975em; }
@@ -120,37 +121,38 @@ a.btn_round {
 
 .row {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  height: 98%; }
 
 .column {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin: 0; }
 
 .left {
   flex: 1;
   margin: 5px;
-  padding: 0 10px; }
+  padding: 5px 10px; }
 
 .right {
   flex: 1.5;
   margin: 5px;
-  padding: 0 10px; }
+  padding: 5px 10px; }
 
 .card {
-  margin: 5px 10px;
-  padding: 15px; }
+  margin: 0px 10px 5px 10px;
+  padding: 5px 15px; }
 
 #contact_details,
 #contact_details a {
   color: #7d7484; }
 
 #experience section {
-  margin-bottom: 3%; }
+  margin-bottom: 1%; }
 
 /*///// FOOTER /////*/
 footer {
+  height: 2%;
   padding: 1% 0 1% 0;
   text-align: center;
   width: 100%; }
@@ -160,7 +162,7 @@ footer {
     footer a:hover {
       color: #cdb8bd; }
 
-@media only screen and (max-width: 670px) {
+@media only screen and (max-width: 720px) {
   h1 {
     font-size: 3.3em; }
 
